@@ -1,0 +1,5 @@
+1. Git
+2. push
+3. pull
+4. merge
+5. commit
