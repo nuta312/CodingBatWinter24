@@ -2,7 +2,6 @@ package janbolot.String_3;
 
 import com.digital_nomads.janbolot.String_3.countYZClass;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
