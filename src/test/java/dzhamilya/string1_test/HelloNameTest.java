@@ -1,4 +1,4 @@
-package dzhama.string1_test;
+package dzhamilya.string1_test;
 
 import com.digital_nomads.demo.string1.HelloName;
 import org.testng.Assert;
