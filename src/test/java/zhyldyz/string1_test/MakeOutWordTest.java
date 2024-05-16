@@ -9,7 +9,7 @@ import static org.testng.Assert.*;
 public class MakeOutWordTest {
 
     @Test(dataProvider = "makeOutWordDataProvider")
-    public void makeOutWord(String out, String word, String expected) {
+    public void makeOutWordTest(String out, String word, String expected) {
 
         var makeOutWord = new MakeOutWord();
         assertEquals(makeOutWord.makeOutWord(out, word), expected);
