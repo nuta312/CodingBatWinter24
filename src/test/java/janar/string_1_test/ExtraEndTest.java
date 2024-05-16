@@ -13,7 +13,6 @@ public class ExtraEndTest {
                 {"Hello", "lololo"},
                 {"ab", "ababab"},
                 {"Hi", "HiHiHi"},
-                // Добавьте другие тестовые данные, если нужно
         };
     }
 
