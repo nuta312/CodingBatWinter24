@@ -14,7 +14,7 @@ public class Left_2_Test {
                 {"Java", "vaJa"},
                 {"TestNG", "stNGTe"},
                 {"AB", "BA"},
-                // Добавьте другие тестовые данные, если нужно
+
         };
     }
 

@@ -13,7 +13,7 @@ public class FirstHalfTest {
                 {"WooHoo", "Woo"},
                 {"HelloWorld", "Hello"},
                 {"TestNG", "Test"},
-                // Добавьте другие тестовые данные, если нужно
+
         };
     }
 

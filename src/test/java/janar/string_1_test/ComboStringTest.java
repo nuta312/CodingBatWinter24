@@ -14,7 +14,7 @@ public class ComboStringTest {
                 {"Java", "Python", "JavaPythonJava"},
                 {"Testing", "Test", "TestTestingTest"},
                 {"", "Empty", "EmptyEmptyEmpty"},
-                // Добавьте другие тестовые данные, если нужно
+
         };
     }
 

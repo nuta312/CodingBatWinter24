@@ -14,7 +14,7 @@ public class Right_2_Test {
                 {"Java", "vaJa"},
                 {"TestNG", "NGTest"},
                 {"AB", "BA"},
-                // Добавьте другие тестовые данные, если нужно
+
         };
     }
 
