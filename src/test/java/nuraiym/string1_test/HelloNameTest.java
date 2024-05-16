@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class HelloNameTest {
 
 
-    @Test(dataProvider = "HelloNameTest")
+    @Test(dataProvider = "HelloName Test ")
     public void testHelloName(String name, String expected){
         HelloName helloName = new HelloName();
         String result = helloName.helloName(name);
