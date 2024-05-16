@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="/Users/janbolot/QA/Ideaprojects/QAGuru/CodingBatWinter24">
+    <test verbose="2" preserve-order="true" name="D:\Projects\CodingBatWinter24_Git\out">
         <classes>
-            <class name="janbolot.String_3.countYZTest">
+            <class name="aizada.string1_test.HelloNameTest">
                 <methods>
-                    <include name="testCountYZ"/>
+                    <include name="helloNameTest"/>
                 </methods>
             </class>
         </classes>
