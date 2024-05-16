@@ -1,4 +1,4 @@
-package demo.string1_test;
+package meka.string1_test;
 
 import com.digital_nomads.demo.string1.HelloName;
 import org.testng.Assert;
