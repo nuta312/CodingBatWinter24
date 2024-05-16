@@ -8,6 +8,11 @@
                     <include name="helloNameTest"/>
                 </methods>
             </class>
+            <class name="aizada.warmup1_test.SleepInTest">
+                <methods>
+                    <include name="sleepInTest"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
