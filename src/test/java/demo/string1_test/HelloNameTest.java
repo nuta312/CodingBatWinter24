@@ -1,6 +1,7 @@
 package demo.string1_test;
 
 import com.digital_nomads.demo.string1.HelloName;
+import org.junit.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
