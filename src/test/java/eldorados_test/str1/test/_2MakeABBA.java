@@ -1,6 +1,6 @@
-package eldar_test.str1.test;
+package eldorados_test.str1.test;
 
-import com.digital_nomads.eldar.str1.MakeABBA;
+import com.digital_nomads.eldorado.str1.MakeABBA;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
