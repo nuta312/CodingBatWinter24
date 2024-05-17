@@ -1,6 +1,6 @@
 package zharkyn.string1_test;
 
-import com.digital_nomads.demo.string1.HelloName;
+import com.digital_nomads.zharkyn.string1.HelloName;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
