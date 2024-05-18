@@ -1,6 +1,5 @@
 package demo.String1_Test;
 
-import com.digital_nomads.shirin.string1.HelloName;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
