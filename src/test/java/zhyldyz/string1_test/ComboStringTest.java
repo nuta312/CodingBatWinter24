@@ -25,7 +25,8 @@ public class ComboStringTest {
                 {"b", "aaa", "baaab"},
                 {"aaa", "", "aaa"},
                 {"", "bb", "bb"},
-                {"aaa", "1234", "aaa1234aaa"}
+                {"aaa", "1234", "aaa1234aaa"},
+                {"", "a", "a"}
         };
 
     }
