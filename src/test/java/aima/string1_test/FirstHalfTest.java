@@ -6,12 +6,10 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class FirstHalfTest {
-
     @Test (dataProvider = "words")
     public void firstHalf(String str, String expected) {
         FirstHalf firstHalf = new FirstHalf();
         Assert.assertEquals(firstHalf.firstHalf(str), expected);
-
     }
     @DataProvider(name = "words")
     public Object[][] providerWords() {
