@@ -12,7 +12,6 @@ public class MakeOutWordTest {
                 {"<<>>", "he", "<<he>>"},
                 {"[[]]", "hi", "[[hi]]"},
 
-
         };
 
     }
