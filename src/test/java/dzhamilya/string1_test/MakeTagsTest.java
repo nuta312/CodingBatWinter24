@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class MakeTagsTest {
 
     @Test
-            (dataProvider = "MakeTest")
+            (dataProvider = "makeTest")
     public void tagsTest(String tag, String word, String expected) {
         MakeTags tags = new MakeTags();
         String result = tags.makeTags(tag, word);

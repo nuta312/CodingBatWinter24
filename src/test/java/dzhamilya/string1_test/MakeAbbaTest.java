@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class MakeAbbaTest {
     @Test
-            (dataProvider = "AbbaTest")
+            (dataProvider = "abbaTest")
     public void testMakeAbba(String a, String b, String expected) {
         MakeAbba make = new MakeAbba();
         String result = make.makeAbba(a, b);
