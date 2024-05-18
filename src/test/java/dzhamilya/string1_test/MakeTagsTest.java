@@ -9,7 +9,7 @@ public class MakeTagsTest {
 
     @Test
             (dataProvider = "MakeTest")
-    public void TagsTest(String tag, String word, String expected) {
+    public void tagsTest(String tag, String word, String expected) {
         MakeTags tags = new MakeTags();
         String result = tags.makeTags(tag, word);
         Assert.assertEquals(result, expected);
@@ -17,7 +17,7 @@ public class MakeTagsTest {
 
     }
 @DataProvider
-    public Object[][] MakeTest() {
+    public Object[][] makeTest() {
         return new Object[][] {
                 {"i", "Yay" , "<i>Yay</i>"},
                 {"i", "Hello", "<i>Hello</i>"},

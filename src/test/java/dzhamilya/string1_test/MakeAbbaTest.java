@@ -8,13 +8,13 @@ import org.testng.annotations.Test;
 public class MakeAbbaTest {
     @Test
             (dataProvider = "AbbaTest")
-    public void TestMakeAbba(String a, String b, String expected) {
+    public void testMakeAbba(String a, String b, String expected) {
         MakeAbba make = new MakeAbba();
         String result = make.makeAbba(a, b);
         Assert.assertEquals(result, expected);
     }
     @DataProvider
-    public Object[][] AbbaTest() {
+    public Object[][] abbaTest() {
         return new Object[][] {
                 {"Hi", "Bye" , "HiByeByeHi"},
                 {"Yo", "Alice", "YoAliceAliceYo"},

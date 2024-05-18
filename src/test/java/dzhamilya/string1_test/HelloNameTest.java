@@ -12,7 +12,7 @@ public class HelloNameTest {
         Assert.assertEquals(helloName.helloName("Bob"),"Hello Bob!");
     }
     @DataProvider
-    public Object[][] NameTest() {
+    public Object[][] nameTest() {
         return new Object[][] {
                 {"Bob", "Hello Bob!"},
                 {"Alice", "Hello Alice!"},
