@@ -1,7 +1,6 @@
 package aizharkyn.string1_test;
 
 import com.digital_nomads.aizharkyn.string1.ConCat;
-import com.digital_nomads.aizharkyn.string1.LastChars;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
