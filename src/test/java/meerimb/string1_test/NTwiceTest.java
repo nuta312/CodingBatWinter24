@@ -1,3 +1,5 @@
+package meerimb.string1_test;
+
 import com.digital_nomads.meerimb.string1.NTwice;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
