@@ -18,7 +18,7 @@ public class HelloNameTest {
         };
     }
 
-    @Test
+    @Test(dataProvider = "nameProvider")
     public void helloNameTest(String name, String expected){
         HelloName helloName = new HelloName();
         Assert.assertEquals(helloName.helloName(name), expected);
