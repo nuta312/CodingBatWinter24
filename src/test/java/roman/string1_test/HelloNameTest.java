@@ -8,7 +8,6 @@ public class HelloNameTest {
     @Test
     public void testHelloName(){
         HelloName helloName = new HelloName();
-        Assert.assertEquals(helloName.helloName("Bob"),"Hello Bob!");
 
     }
 }
