@@ -6,12 +6,12 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class MonkeyTroubleTest {
-@Test (dataProvider = "boolean")
+@Test (dataProvider = "words")
     public void monkeyTrouble(boolean aSmile, boolean bSmile, boolean expected) {
     MonkeyTrouble monkeyTrouble = new MonkeyTrouble();
     Assert.assertEquals(monkeyTrouble.monkeyTrouble(aSmile, bSmile), expected);
     }
-    @DataProvider (name = "boolean")
+    @DataProvider (name = "words")
     public Object[][] providerWords(){
     return new Object[][]{
             {"true", "true", "true"},
