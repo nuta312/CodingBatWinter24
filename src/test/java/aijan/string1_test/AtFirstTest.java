@@ -24,7 +24,6 @@ public class AtFirstTest {
         };
 
     }
-
     @Test(dataProvider = "word")
     public void testAtFirst(String str, String expectedResult) {
         AtFirst obj = new AtFirst();
