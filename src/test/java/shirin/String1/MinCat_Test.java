@@ -1,4 +1,4 @@
-package shirin;
+package shirin.String1;
 
 import com.digital_nomads.shirin.string1.MinCat;
 import org.testng.Assert;
