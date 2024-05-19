@@ -1,15 +1,19 @@
-package demo.string1_test;
+package mika.string1_test;
 
-import com.digital_nomads.demo.string1.HelloName;
+import com.digital_nomads.mika.string1.HelloName;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.util.Arrays;
+import java.util.Objects;
+
+
 public class HelloNameTest {
 
-    @DataProvider(name = "names")
-    public Object[][] namesData() {
-        return new Object[][] {
+    @DataProvider
+    public Object [] [] helloNameTest() {
+        return new Object[] [] {
                 {"Bob", "Hello Bob!"},
                 {"Alice", "Hello Alice!"},
                 {"X", "Hello X!"},
@@ -18,15 +22,17 @@ public class HelloNameTest {
                 {"Omega", "Hello Omega!"},
                 {"Goodbye", "Hello Goodbye!"},
                 {"ho ho ho", "Hello ho ho ho!"},
-                {"xyz!", "Hello xyz!!"},
-                {"Hello", "Hello Hello!"}
-
+                {"xyz", "Hello xyz!"},
+                {"Hello", "Hello Hello!"},
         };
     }
 
-    @Test(dataProvider = "names")
-    public void testHelloName(String name, String expected){
+    @Test (dataProvider = "helloNameTest")
+    public void testHelloName(String name, String expected) {
         HelloName helloName = new HelloName();
-        Assert.assertEquals(helloName.helloName(name), expected);
+        String result = helloName.helloName(name);
+        Assert.assertEquals(result,expected);
+
     }
+
 }
