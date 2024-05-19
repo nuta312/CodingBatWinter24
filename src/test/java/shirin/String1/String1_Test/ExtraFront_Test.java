@@ -1,4 +1,4 @@
-package shirin.String1;
+package shirin.String1.String1_Test;
 
 import com.digital_nomads.shirin.string1.ExtraFront;
 import org.testng.Assert;
