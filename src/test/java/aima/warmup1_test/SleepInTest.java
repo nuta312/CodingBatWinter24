@@ -6,13 +6,13 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class SleepInTest {
-    @Test(dataProvider = "boolean")
+    @Test(dataProvider = "provideValues")
     public void sleepIn(boolean weekday, boolean vacation, boolean expected) {
         SleepIn sleepIn = new SleepIn();
         Assert.assertEquals(sleepIn.sleepIn(weekday, vacation), expected);
     }
 
-    @DataProvider(name = "boolean")
+    @DataProvider(name = "provideValues")
     public Object[][] provideValues() {
         return new Object[][]{
                 {"false", "false", "true"},
