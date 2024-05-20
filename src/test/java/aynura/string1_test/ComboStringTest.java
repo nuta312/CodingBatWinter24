@@ -6,6 +6,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class ComboStringTest {
+
     @DataProvider(name = "word")
     public Object[][] provideWord() {
         return new Object[][]{
@@ -21,7 +22,6 @@ public class ComboStringTest {
                 {"bb", "a", "abba"},
                 {"xyz", "ab", "abxyzab"}
         };
-
     }
 
     @Test(dataProvider = "word")

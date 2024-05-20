@@ -17,8 +17,6 @@ public class AtFirstTest {
     @DataProvider(name = "word")
     public Object[][] providerWord() {
         return new Object[][]{
-
-
                 {"hello", "he"},
                 {"hi", "hi"},
                 {"h", "h@"},

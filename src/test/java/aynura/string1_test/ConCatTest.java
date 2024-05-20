@@ -17,12 +17,13 @@ public class ConCatTest {
                 {"pig", "g", "pig"},
                 {"pig", "doggy","pigdoggy"}
         };
-
     }
+
     @Test(dataProvider = "word")
     public void testConCat(String a, String b, String expectedResult) {
         ConCat obj = new ConCat();
         String actualResult = obj.conCat(a,b);
+
         Assert.assertEquals(actualResult,expectedResult);
     }
 }
