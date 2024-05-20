@@ -4,7 +4,7 @@ import com.digital_nomads.eldorado.str1.Rigtj2;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class __12Rigth2 {
+public class _12Rigth2 {
     @Test(dataProvider = "R2T")
     public void testRight2 (String a, String e){
         Rigtj2 r2 = new Rigtj2();
