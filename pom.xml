@@ -14,18 +14,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-
-    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-    <dependency>
-        <groupId>org.testng</groupId>
-        <artifactId>testng</artifactId>
-        <version>7.10.1</version>
-        <scope>test</scope>
-    </dependency>
-
-
-
-
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
@@ -36,10 +24,5 @@
         </dependency>
 
     </dependencies>
-<<<<<<< HEAD
-</project>
-
-=======
 
 </project>
->>>>>>> origin/master
