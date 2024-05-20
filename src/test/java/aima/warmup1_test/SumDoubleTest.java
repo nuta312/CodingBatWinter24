@@ -1,6 +1,6 @@
 package aima.warmup1_test;
 
-import com.digital_nomads.aima.string1.SumDouble;
+import com.digital_nomads.aima.warmup1.SumDouble;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

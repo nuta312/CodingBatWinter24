@@ -1,4 +1,4 @@
-package com.digital_nomads.aima.string1;
+package com.digital_nomads.aima.warmup1;
 
 public class SumDouble {
     public int sumDouble(int a, int b) {
