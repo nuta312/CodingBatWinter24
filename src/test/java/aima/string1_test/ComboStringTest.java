@@ -6,13 +6,13 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class ComboStringTest {
-    @Test (dataProvider = "words")
+    @Test (dataProvider = "provideWords")
     public void comboString (String a, String b, String expected){
         ComboString comboString = new ComboString();
         Assert.assertEquals(comboString.comboString(a, b), expected);
     }
 
-    @DataProvider (name = "words")
+    @DataProvider (name = "provideWords")
     public Object[][] provideWords(){
         return new Object[][]{
                 {"Hello", "hi", "hiHellohi"},
