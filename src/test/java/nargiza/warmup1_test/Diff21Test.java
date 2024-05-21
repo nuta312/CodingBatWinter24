@@ -1,4 +1,4 @@
-package nargiza.string1_test;
+package nargiza.warmup1_test;
 
 import com.digital_nomads.nargiza.warmup1.Diff21;
 import org.testng.annotations.DataProvider;
